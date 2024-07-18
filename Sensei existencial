@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensei - Coaching Existencial y Organizacional</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #4A148C;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+        }
+        nav {
+            background-color: #FFB300;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #4A148C;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Sensei Logo">
+        <h1>Sensei</h1>
+        <p>Coaching Existencial y Organizacional</p>
+    </header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#articulos">Artículos</a>
+        <a href="#libros">Libros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="home">
+        <h2>Bienvenido a Sensei</h2>
+        <p>Tu recurso para coaching existencial y organizacional.</p>
+    </section>
+    <section id="articulos">
+        <h2>Artículos y Ensayos</h2>
+        <p>Listado de artículos y ensayos...</p>
+    </section>
+    <section id="libros">
+        <h2>Libros</h2>
+        <p>Información sobre libros publicados...</p>
+    </section>
+    <section id="servicios">
+        <h2>Servicios Ofrecidos</h2>
+        <p>Descripción de servicios...</p>
+    </section>
+    <section id="cursos">
+        <h2>Cursos</h2>
+        <p>Información sobre cursos ofrecidos...</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>O contáctanos en nuestras redes sociales.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sensei - Coaching Existencial y Organizacional</p>
+    </footer>
+</body>
+</html>
